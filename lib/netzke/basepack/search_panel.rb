@@ -12,6 +12,11 @@ module Netzke
           ["gt", I18n.t('netzke.basepack.search_panel.greater_than')],
           ["lt", I18n.t('netzke.basepack.search_panel.less_than')]
         ],
+        :decimal => [
+          ["eq", I18n.t('netzke.basepack.search_panel.equals')],
+          ["gt", I18n.t('netzke.basepack.search_panel.greater_than')],
+          ["lt", I18n.t('netzke.basepack.search_panel.less_than')]
+        ],
           :text => [
             ["contains", I18n.t('netzke.basepack.search_panel.contains')] # same as matches => %string%
         ],
