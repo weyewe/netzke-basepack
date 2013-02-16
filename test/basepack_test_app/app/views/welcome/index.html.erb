@@ -4,7 +4,7 @@
 <%- for component in @components do -%>
 <tr>
   <td><%= link_to component, components_path(:component => component) %></td>
-  <td><%= link_to_component_code(component) %></td>
+  <td><%#= link_to_component_code(component) %></td>
 </tr>
 <%- end -%>
 </table>

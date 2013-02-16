@@ -335,6 +335,8 @@ module Netzke
       component :search_window do |c|
         c.klass = SearchWindow
         c.model = config.model
+        puts "The default_fields_for_forms"
+        puts "#{default_fields_for_forms.inspect}"
         c.fields = default_fields_for_forms
       end
 
